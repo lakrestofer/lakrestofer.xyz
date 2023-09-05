@@ -4,14 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>MyBlog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 
-<body>
-  <section>
-    <div>
-      {% block content %} {% endblock %}
-    </div>
-  </section>
+<body class="bg-neutral-800 text-neutral-200 h-screen">
+  {% include "navbar.html"%}
+  <main class="px-10 min-h-screen">
+    {% block content %} {% endblock %}
+  </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>

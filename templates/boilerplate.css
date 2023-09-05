@@ -1,0 +1,4 @@
+/*this file only exist to be used by the tailwindcss npm package. It is not imported directly into the used site*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

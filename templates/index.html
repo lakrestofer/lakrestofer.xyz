@@ -1,1 +1,14 @@
-<h1>This is my blog made with Zola</h1>
+{% extends "base.html" %}
+
+{% block content %}
+<!-- hero section -->
+<section id="hero" class="border border-neutral-700 shadow-lg rounded-lg p-10 text-center mt-3 h-full">
+  <img src="images/penguin-in-hoddie-1000.gif" class="sm:w-full lg:w-fit lg:m-auto"/>
+  <h1 class="text-5xl my-3">
+    Hi!
+  </h1>
+  <p class="text-xl">
+    And welcome to my site! It is a bit empty at the moment but hopefully that will change soon! 
+  </p>
+</section>
+{% endblock content %}
