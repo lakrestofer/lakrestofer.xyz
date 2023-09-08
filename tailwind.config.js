@@ -5,7 +5,11 @@ module.exports = {
     "templates/**/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      'fontFamily': {
+        'handjet': ['Handjet', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
