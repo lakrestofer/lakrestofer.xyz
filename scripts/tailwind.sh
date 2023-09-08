@@ -11,7 +11,7 @@ counter=0;
 function run_tailwind() {
     counter=$((counter+1))
     echo "Detected change n. $counter" 
-    npx tailwindcss -i ./templates/boilerplate.css -o ./static/style.css
+    npx tailwindcss -i ./templates/main.css -o ./static/style.css
 }
 
 run_tailwind
