@@ -6,16 +6,16 @@
   <title>MyBlog</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
+
 </head>
 
-<body class="bg-neutral-800 text-neutral-200 h-screen">
+<body class="bg-neutral-800 text-neutral-200 font-handjet">
   {% include "navbar.html"%}
-  <main class="px-10 min-h-screen">
+  <main>
     {% block content %} {% endblock %}
   </main>
-  <footer>
-
-  </footer>
+  {% include "footer.html"%}
 </body>
 
 </html>
