@@ -3,14 +3,14 @@
 {% block content %}
 <section class="h-[calc(100vh-12rem)] px-10 pb-10 flex flex-col items-center overflow-scroll">
 
-    <h1 class="font-bold text-2xl mb-5">
+    <h1 class="font-bold text-5xl mb-5">
         {{ section.title }}
     </h1>
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
     {% for page in section.pages %}
-    <a href="{{ page.permalink | safe }}">
-        <div class="border border-neutral-700 shadow-lg rounded-lg p-10 flex flex-col gap-3 mb-5">
-            <h3 class="text-lg">{{ page.title}}</h3>
+    <a href="{{ page.permalink | safe }}" class="sm:w-full lg:w-fit sm:text-3xl lg:text-xl">
+        <div class="border border-white shadow-lg rounded-lg p-10 flex flex-col gap-3 mb-5">
+            <h3 class="text-3xl">{{ page.title}}</h3>
             <p>{{ page.date }}</p>
             <p>
                 {{page.description}}
@@ -18,7 +18,7 @@
         </div>
     </a>
     {% endfor %}
-    {% if section.pages | length < 5%} <p>
+    {% if section.pages | length < 5%} <p class="sm:text-3xl lg:text-xl">
         Wow... that's... not so many posts
         </p>
         {%else%}
