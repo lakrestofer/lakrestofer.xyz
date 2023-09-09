@@ -6,7 +6,7 @@ description  = "The first post... the fourth site... will he prevail..."
 
 ## Hello World
 
-If you're reading this you are looking at my 4th attempt at trying to create a presence on the internet. I first set up a simply gatby page during my first year at LTH but never really found myself using it to put out any writing. Even though I want to believe that I value the act of expressing thought in text, I have never really been that proficient in doing it. 
+If you're reading this you are looking at my 4th attempt at trying to create a presence on the internet. I set up a simply gatby page during my first year at LTH but never really found myself using it to put out any writing. Even though I want to believe that I value the act of expressing thought in text, I have never really been that proficient in doing it. 
 
 The site went unused for a couple of months before I rewrote it using the rust frontend library [yew](https://yew.rs/). Despite being a good exercise in building something nonconventional with rust it did not really serve its purpose as a blog at all. I had no good way of taking prose and generating sites out of it (without doing some markdown to html conversion myself and then injecting it between my webassembly driven rust components).
 
