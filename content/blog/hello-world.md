@@ -12,7 +12,7 @@ The site went unused for a couple of months before I rewrote it using the rust f
 
 And like this I went back and forth between various libraries and static site generators hoping to someday actually fulfill the literary dreams of my manifesto writing, philosophy consuming teenage self.  Here I sit though, three years later, without more than a handful of articles ever written (none of which are accessible on this site, or that have survived the `rm -rf` command).
 
-This time though, there are a couple of factors that I believe improve the ods of me actually making this whole writing thing into a practice:
+This time though, there are a couple of factors that I believe improve the odds of me actually making this whole writing thing into a practice:
 
 - I have matured a bit. While I still have quite a sporadic and undirected attention I do feel that my capacity to direct my efforts during these last years have increased. I guess this is just an aspect of my prefrontal cortex coalescing a bit.
 - I no longer work part time alongside my full time studies. During my third year I worked part time as a consultant essentially doing fullstack development in a variety of languages, tools and frameworks. While I certainly gained a lot from the experience, my studies and ability to spend time with my own creative endeavors definitely suffered.
