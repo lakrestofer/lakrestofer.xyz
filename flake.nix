@@ -27,6 +27,7 @@
               zola
               bun
               inotify-tools
+              vscode-langservers-extracted
             ];
 
           };
