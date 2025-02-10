@@ -1,5 +1,0 @@
-+++
-template = "contact.html"
-+++
-
-# boilerplate

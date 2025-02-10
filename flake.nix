@@ -26,6 +26,7 @@
             packages = with pkgs; [
               zola
               bun
+              inotify-tools
             ];
 
           };
